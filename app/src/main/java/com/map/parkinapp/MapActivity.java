@@ -59,7 +59,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
     }
-
+//FINE AND COARSE LOCATION PERMISSION ERROR SUPPRESSED
     @SuppressLint("MissingPermission")
     @Override
     public void onMapReady(@NonNull GoogleMap googleMap) {
@@ -85,8 +85,11 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     private static final String COARSE_LOCATION = Manifest.permission.ACCESS_COARSE_LOCATION;
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1234;
     private static final float DEFAULT_ZOOM = 15f;
+    //Boundries
     private static final LatLngBounds LAT_LNG_BOUNDS = new LatLngBounds(
-            new LatLng(-40 , -168) , new LatLng( 71 , 136));
+            new LatLng(-40, -168) , new LatLng( 71 , 136));
+
+
 
     //widget
     private AutoCompleteTextView mSearchText;

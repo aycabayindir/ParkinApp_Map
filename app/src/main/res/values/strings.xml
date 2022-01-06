@@ -2,4 +2,5 @@
     <string name="GoogleMapsAPIKey">AIzaSyBeRfvqCIvvfOb6Kbs6rePeHxUwfvHtoC4</string>
     <string name="app_name">ParkinApp</string>
     <string name="title_activity_map_info">MapInfo</string>
+    <string name="maps_api_key">AIzaSyBeRfvqCIvvfOb6Kbs6rePeHxUwfvHtoC4</string>
 </resources>
